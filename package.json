@@ -4,7 +4,8 @@
   "description": "Minesweeping game played on the console",
   "main": "minesweeper.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/bernora/minesweeper/issues"
   },
-  "homepage": "https://github.com/bernora/minesweeper#readme"
+  "homepage": "https://github.com/bernora/minesweeper#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
 }

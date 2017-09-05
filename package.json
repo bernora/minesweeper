@@ -1,0 +1,19 @@
+{
+  "name": "minespweeper",
+  "version": "1.0.0",
+  "description": "Minesweeping game played on the console",
+  "main": "minesweeper.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernora/minesweeper.git"
+  },
+  "author": "nora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernora/minesweeper/issues"
+  },
+  "homepage": "https://github.com/bernora/minesweeper#readme"
+}
